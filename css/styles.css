@@ -21,18 +21,19 @@ body{
     list-style: none;
 }
 
-.menu .link{
+.menu.link{
   color: var(--basic-color-contrast);
   text-decoration: none;
 }
 
-.menu .link:hover{
+.menu .link:hover,
+.menu .link:focus{
+
     color: var(--accent-color);
 }
 
 .number{
     color: var(--basic-color-contrast);
-    text-decoration: none;
 }
 
 .number:hover{
