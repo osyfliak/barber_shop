@@ -3,25 +3,46 @@
     --basic-color-contrast: #FFFFFF;
     --title-text-color: #555555;
     --accent-color: #FF6C00;
+    --font-basic: 'Open Sans', sans-serif;
 }
 body{
     background-color: var(--basic-color-contrast);
     color: var(--basic-color);
 
-    font-family: 'Open Sans', sans-serif;
     letter-spacing: 0.02em;
+    font-family: var(--font-basic);
 }
 
 .header{
     background-color: red;
 }
+
 .list{
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-.menu.link{
+.uptitle{
+    color: var(--basic-color);
+
+/* font-family: var(--font-basic); */
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.3636;    
+    text-transform: uppercase;
+}
+
+.title{
+    color: var(--basic-color);
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.1666;
+    letter-spacing: 0.05em;
+}
+.menu .link{
   color: var(--basic-color-contrast);
   text-decoration: none;
 }
@@ -32,7 +53,7 @@ body{
     color: var(--accent-color);
 }
 
-.number{
+.phone-number{
     color: var(--basic-color-contrast);
 }
 
@@ -52,4 +73,162 @@ body{
     line-height: 1.3;
     letter-spacing: 0.09em;
 
+}
+.hero .uptitle{
+    color: rgba(157, 164, 189, 0.6);
+
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.3636;
+    text-transform: uppercase;
+}
+
+.hero .title{
+    background-color: #FF6C00;
+    color: var(--basic-color-contrast);
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.1805;
+    letter-spacing: 0.05em;
+}
+.hero .text{
+    color: #9DA4BD;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67; 
+    letter-spacing: 0.02em;
+}
+
+.about .list{
+    display: flex;
+}
+
+.about .duwntitle{
+    color: var(--title-text-color);
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;   
+}
+
+.about .text{
+    color: var(--title-text-color);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+}
+
+.about .button{
+    color: var(--basic-color);
+}
+
+.priсe{
+    background-color: black;
+}
+
+.priсe .list{
+    display: flex;
+}
+
+.priсe .text{
+    color: #9DA4BD;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    text-align: left;
+    letter-spacing: 0.02em;    
+}
+    
+.priсe .text-part{
+    color: #9DA4BD;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    text-align: right;
+    letter-spacing: 0.02em;
+}
+.why{
+    display: flex;
+}
+
+.why .plus{
+    color: var(--accent-color);
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.375;
+}
+
+.why .downtext{
+    color: var(--basic-color);
+
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.3636;
+}
+
+.why .numbers{
+    color:var(--basic-color);
+
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.3571;
+    letter-spacing: 0.05em;
+}
+
+.why .text{
+    color: var(--title-text-color);
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em; 
+}
+
+.name{
+    color: var(--basic-color);
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.3888;
+    letter-spacing: 0.02em;
+}
+
+.position{
+    color: var(--accent-color);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3571;
+    letter-spacing: 0.02em;
+
+}
+.instagram{
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/icon/instagram.png);
+}
+.instagram:hover{
+   background-image: url(../img/instagram_hover.png);
+}
+
+
+.title-contact{
+    color: var(--basic-color-contrast);
+
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.1666;
+    letter-spacing: 0.05em;
+}
+.address .link{
+    text-decoration: none;
 }
