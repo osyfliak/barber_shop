@@ -42,6 +42,17 @@ body{
     line-height: 1.1666;
     letter-spacing: 0.05em;
 }
+
+.header{
+    display: flex;
+
+}
+
+.header .list{
+    display: flex;
+}
+
+
 .menu .link{
   color: var(--basic-color-contrast);
   text-decoration: none;
@@ -101,7 +112,9 @@ body{
     line-height: 1.67; 
     letter-spacing: 0.02em;
 }
-
+.about{
+    display: flex;
+}
 .about .list{
     display: flex;
 }
@@ -159,6 +172,10 @@ body{
     display: flex;
 }
 
+.why .list{
+    display: flex;
+}
+
 .why .plus{
     color: var(--accent-color);
 
@@ -193,6 +210,12 @@ body{
     letter-spacing: 0.02em; 
 }
 
+.team .list{
+    display: flex;
+}
+
+
+
 .name{
     color: var(--basic-color);
 
@@ -220,6 +243,9 @@ body{
    background-image: url(../img/instagram_hover.png);
 }
 
+.portfolio .list{
+    display: flex;
+}
 
 .title-contact{
     color: var(--basic-color-contrast);
