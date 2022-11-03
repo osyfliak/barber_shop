@@ -14,7 +14,7 @@ body{
 }
 
 .header{
-    background-color: red;
+    background-color: blue;
 }
 
 .list{
@@ -45,11 +45,13 @@ body{
 
 .header{
     display: flex;
+    align-items: center;
 
 }
 
 .header .list{
     display: flex;
+   
 }
 
 
@@ -73,10 +75,12 @@ body{
 }
 
 .button{
+    cursor: pointer;
+    height: 40px;
     width: 160px;
     color: var(--basic-color-contrast);
-    border-color: var(--accent-color);
     border-radius: 25px;
+    border: 1px solid #FF6C00;
     background-color: transparent;
 
     font-weight: 600;
