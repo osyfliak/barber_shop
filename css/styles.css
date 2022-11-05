@@ -39,6 +39,7 @@ body{
 
 .uptitle{
     color: var(--basic-color);
+    margin-bottom: 20px;
 
 /* font-family: var(--font-basic); */
     font-weight: 600;
@@ -124,11 +125,29 @@ body{
 
 }
 
+.section {
+    padding: 120px 0;
+}
+
+
 
 .hero .container{
+    background-image: url(../img/slider3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     width: calc(100% - 114px);
     padding: 272px 0 40px 100px
 }
+
+.hero-block{
+    display: flex;
+}
+
+.hero-socials {
+    padding: 27px 0 58px 40px;
+    background:white ;
+}
+
 .hero .uptitle{
     color: rgba(157, 164, 189, 0.6);
 
@@ -139,9 +158,6 @@ body{
 }
 
 .hero .title{
-  
-
-    background-color: #FF6C00;
     color: var(--basic-color-contrast);
 
     font-family: 'Raleway', sans-serif;
@@ -166,6 +182,9 @@ body{
   
     margin-top: 144px;
 }
+.about{
+   padding:120px 0 ;
+}
 
 .about .container{
     display: flex;
@@ -177,17 +196,19 @@ body{
     
 }
 
-.title-and-text{
+.about-description{
     display: flex;
-    flex-direction: column;
-   gap: 20px;
-    
+    flex-direction: column;  
+    margin-right: 100px; 
 }
-    
+ .about-title{
+    margin-bottom: 20px;
+ }
 
 
-.about .duwntitle{
+.about-duwntitle{
     color: var(--title-text-color);
+    margin-bottom: 20px;
 
     font-weight: 400;
     font-size: 18px;
@@ -195,8 +216,9 @@ body{
     letter-spacing: 0.02em;   
 }
 
-.about .text{
+.about-text{
     color: var(--title-text-color);
+    /* margin-bottom: 42px; */
 
     font-weight: 400;
     font-size: 14px;
@@ -205,18 +227,39 @@ body{
 }
 
 .about .button{
+    margin-top: auto;
     color: var(--basic-color);
+
 }
 
 .priсe{
-    background-color: black;
+   fi
+    background:url(../img/backround2.jpg) rgba(17, 19, 25, 1);
 }
 
-.priсe .list{
+.price-title{
+    color: var(--basic-color-contrast);
+    margin-bottom: 44px;
+
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.1666;
+    letter-spacing: 0.05em;
+}
+.priсe-list{
+    list-style: none;
     display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 44px;
+} 
+
+.button-price{
+    display: block;
+    margin: 0 auto;
 }
 
-.priсe .text{
+.text{
     color: #9DA4BD;
 
     font-weight: 400;
@@ -226,7 +269,7 @@ body{
     letter-spacing: 0.02em;    
 }
     
-.priсe .text-part{
+.text-part{
     color: #9DA4BD;
 
     font-weight: 400;
@@ -235,28 +278,34 @@ body{
     text-align: right;
     letter-spacing: 0.02em;
 }
-.why{
+
+.why .container {
     display: flex;
+    padding-left: 124px;
+    padding-right: 70px;
+}
+.why-title{
+    margin-bottom: 20px;
+}
+.why-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;  
+}
+.why-list .item{
+    width: 170px;
+    text-align: center;
+    padding: 20px 24px
 }
 
-.why .list{
-    display: flex;
-}
 
-.why .plus{
+.plus{
     color: var(--accent-color);
 
     font-weight: 600;
     font-size: 16px;
     line-height: 1.375;
-}
-
-.why .downtext{
-    color: var(--basic-color);
-
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 1.3636;
+    text-align: center;
 }
 
 .why .numbers{
@@ -268,7 +317,15 @@ body{
     letter-spacing: 0.05em;
 }
 
-.why .text{
+.why-downtext {
+    color: var(--basic-color);
+
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.3636;
+}
+
+.why-text{
     color: var(--title-text-color);
 
     font-weight: 400;
@@ -276,13 +333,18 @@ body{
     line-height: 1.67;
     letter-spacing: 0.02em; 
 }
-
+.team-title{
+    margin-bottom: 44px;
+}
+.team img{
+    margin-bottom: 30px;
+}
 .team .list{
     display: flex;
     gap: 30px;
+    justify-content: center;
+    align-items: center;
 }
-
-
 
 .name{
     color: var(--basic-color);
@@ -291,15 +353,19 @@ body{
     font-size: 18px;
     line-height: 1.3888;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .position{
     color: var(--accent-color);
+    margin-top: 8px;
+    margin-bottom: 30px;
 
     font-weight: 400;
     font-size: 14px;
     line-height: 1.3571;
     letter-spacing: 0.02em;
+    text-align: center;
 
 }
 .instagram{
@@ -313,6 +379,7 @@ body{
 
 .portfolio .list{
     display: flex;
+    gap: 30px;
 }
 
 .title-contact{
