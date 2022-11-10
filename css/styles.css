@@ -358,6 +358,10 @@ body{
 
 
 .plus{
+    position: absolute;
+    left: 0;
+    top: 0;
+
     color: var(--accent-color);
 
     font-weight: 600;
@@ -367,6 +371,7 @@ body{
 }
 
 .why .numbers{
+    position: relative;
     color:var(--basic-color);
 
     font-weight: 700;
