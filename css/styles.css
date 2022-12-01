@@ -33,7 +33,6 @@ body{
     padding: 0 15px;
 }
 .header{
-    
     position: absolute;
     left: 0;
     top: 0;
@@ -358,10 +357,6 @@ body{
 
 
 .plus{
-    position: absolute;
-    left: 0;
-    top: 0;
-
     color: var(--accent-color);
 
     font-weight: 600;
